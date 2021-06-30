@@ -1,0 +1,12 @@
+server:
+  port: 8088
+spring:
+  application:
+    name: message-queue-demo
+  mqtt:
+    username: mosquitto
+    password: 123456
+    hostUrl: tcp://localhost:1883
+    topic: test/mqtt
+    clientId1: client1
+    clientId2: client2
